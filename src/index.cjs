@@ -126,6 +126,7 @@ class ScratchWebpackConfigBuilder {
                             }
                         ],
                         options: {
+                            cacheDirectory: true;
                             presets: [
                                 '@babel/preset-env',
                                 ...(
